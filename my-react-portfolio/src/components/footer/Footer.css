@@ -1,0 +1,103 @@
+footer {
+    margin-top: 5rem;
+}
+
+footer .first__row {
+    background-color: var(--light-gray);
+    text-align: center;
+    padding: 2rem;
+}
+
+.first__row picture img {
+    width: 150px;
+}
+
+.first__row .footer__description {
+    width: 40%;
+    margin: 0.5rem auto 1rem auto;
+    font-family: var(--inter);
+    color: var(--dark-gray);
+    line-height: 25px;
+}
+
+.first__row .social__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.first__row .social__icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    border: 1px solid var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copyright__row {
+    background-color: var(--black);
+    padding: 1rem 0;
+}
+
+.copyright__row .copyright__inner__row {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+    font-family: var(--inter);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.copyright__row .copyright__inner__row .copyright__link a:first-child {
+    margin-right: 1rem;
+}
+
+.copyright__inner__row .copyright__link,
+.copyright__inner__row .copyright__text {
+    color: var(--gray);
+}
+
+@media only screen and (max-width: 1280px) {
+    .first__row .footer__description {
+        width: 80%;
+    }
+
+    footer .copyright__row .copyright__inner__row {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    footer .first__row {
+        padding: 1rem;
+    }
+
+    .first__row picture img {
+        width: 100px;
+    }
+
+    .first__row .footer__description {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    footer .copyright__row .copyright__inner__row {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .first__row .social__icons a {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
