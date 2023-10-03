@@ -1,13 +1,96 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ff3131;
+  --green: #2ecc71;
+  --blue: #3498db;
+  --yellow: #f1c40f;
+  --dark-gray: #797979;
+  --gray: #e8e8e8;
+  --light-gray: #fafafa;
+  --inter: "Inter", sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("./fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("./fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("./fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("./fonts/Inter-Bold.ttf");
+}
+
+/* Common Styles  */
+.heading__one {
+  font-size: 50px;
+  font-family: var(--inter);
+  font-weight: 600;
+}
+
+p {
+  font-family: var(--inter);
+  color: var(--dark-gray);
+  line-height: 25px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: var(--inter);
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1280px) {
+  .heading__one {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading__one {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .heading__one {
+    font-size: 25px;
+  }
+
+  button {
+    height: 40px;
+    font-size: 14px;
+    padding: 0;
+  }
 }

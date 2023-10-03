@@ -17,13 +17,13 @@ function Footer() {
             2023 University of Utah Full-Stack Developer Graduate.
           </p>
           <div className="social__icons">
-            <a href="#">
+            <a href="https://github.com/CHawsCoding">
               <FaGithub />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/collinhaws/">
               <FaLinkedinIn />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/collinhaws/">
               <FaYoutube />
             </a>
           </div>

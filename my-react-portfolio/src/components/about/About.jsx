@@ -13,19 +13,19 @@ function About() {
       <div className="about__content">
         <h1 className="heading__one">About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          similique, quasi quam minima consequuntur voluptas cumque aspernatur
-          quo omnis possimus fugiat nisi, suscipit at! Accusamus quas quo
-          molestias nulla fugiat!
+          My name is Collin Haws. I am a recent graduate of a Full-stack development
+          bootcamp through the University of Utah. I have years of professional experience in technical support,
+          finance, underwriting and more. I am hoping to leverage my career experience and new technical skills 
+          into a new opportunity in tech. 
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-          autem exercitationem ducimus commodi sint porro molestiae labore
-          maiores error fugiat!
+          Click "Resume" at the top of the page to get a copy of my downloadable resume
+          and Contact me if there is a good fit! You can also view my portfolio of projects 
+          by also clicking the link in the header
         </p>
         <Link to="portfolio" spy={true} smooth={true}>
           <button>
-            <span>Know More</span>
+            <span>More</span>
             <IoArrowForwardOutline />
           </button>
         </Link>

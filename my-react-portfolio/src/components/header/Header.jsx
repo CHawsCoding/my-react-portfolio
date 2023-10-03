@@ -1,5 +1,5 @@
 import "./Header.css";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import { useEffect, useState } from "react";
 import { RiMenu3Fill, RiCloseLine } from "react-icons/ri";
@@ -25,18 +25,10 @@ function Header() {
           <img src={Logo} alt="Collin Haws" />
         </picture>
         <menu className={`${showMobileMenu ? "show" : ""}`}>
-          <Link to="about" spy={true} smooth={true} offset={-150}>
-            About Me
-          </Link>
-          <Link to="portfolio" spy={true} smooth={true} offset={-150}>
-            Portfolio
-          </Link>
-          <Link to="resume" spy={true} smooth={true} offset={-150}>
-            Resume
-          </Link>
-          <Link to="contact" spy={true} smooth={true} offset={-150}>
-            Contact
-          </Link>
+          <Link to="/about">About Me</Link>
+          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/resume">Resume</Link>
+          <Link to="/contact">Contact</Link>
         </menu>
 
         {/* Mobile menu icon  */}
