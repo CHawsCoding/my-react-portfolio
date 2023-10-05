@@ -1,4 +1,5 @@
 import "./About.css";
+import React from 'react';
 import Men from "../../assets/men.jpg";
 import { IoArrowForwardOutline } from "react-icons/io5";
 import {Link } from "react-scroll";

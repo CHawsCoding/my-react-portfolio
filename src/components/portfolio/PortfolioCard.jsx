@@ -1,5 +1,7 @@
 import { TbExternalLink } from "react-icons/tb";
 import { AiOutlineGithub } from "react-icons/ai";
+import React from 'react';
+
 
 function PortfolioCard({image, title, liveLink, github}) {
   return (

@@ -1,4 +1,5 @@
 import "./Portfolio.css";
+import React from 'react';
 import PortfolioImage from "../../assets/portfolio.png";
 import PasswordImage from "../../assets/password.png";
 import Weather from "../../assets/weather.png";
