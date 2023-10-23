@@ -2,7 +2,7 @@
 
 A personal portfolio website built using React to showcase my skills, projects, and resume. Each link in the header will render the corresponding component into the body of the page. the contact me form will notify user of invalid email or a missing field - although there is not yet backend code to handle the contact me form. I tried to import some icons for the resume page to use for each technology listed but I was not able to successfully do that so they are just listed. 
 
-![Screenshot of App](./src/assets/Screen%20Shot%202023-10-11%20at%208.16.44%20AM.png)
+![Screenshot of App](./src/assets/)
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
