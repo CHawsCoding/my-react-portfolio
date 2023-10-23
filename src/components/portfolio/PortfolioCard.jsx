@@ -6,7 +6,7 @@ import React from 'react';
 function PortfolioCard({image, title, liveLink, github}) {
   return (
     <div className="portfolio__card">
-      <img src={image} alt="Portfolio Image" />
+      <img src={image} alt="image for specific project" />
       <h2 className="heading__two">{title}</h2>
       <div className="portfolio__buttons">
         <a href={liveLink}>
