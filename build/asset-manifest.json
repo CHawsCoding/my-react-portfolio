@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6797cc79.chunk.css",
+    "main.js": "/static/js/main.cdee9f5d.chunk.js",
+    "main.js.map": "/static/js/main.cdee9f5d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.82c7dd3d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.82c7dd3d.js.map",
+    "static/js/2.544e8cd0.chunk.js": "/static/js/2.544e8cd0.chunk.js",
+    "static/js/2.544e8cd0.chunk.js.map": "/static/js/2.544e8cd0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.32c89db3445822bdb714ef1f2a114e83.js": "/precache-manifest.32c89db3445822bdb714ef1f2a114e83.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6797cc79.chunk.css.map": "/static/css/main.6797cc79.chunk.css.map",
+    "static/js/2.544e8cd0.chunk.js.LICENSE.txt": "/static/js/2.544e8cd0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Inter-SemiBold.465266b2.ttf",
+    "static/media/logo.png": "/static/media/logo.99182aa7.png",
+    "static/media/men.jpg": "/static/media/men.0029f1ff.jpg",
+    "static/media/password.png": "/static/media/password.58b90f58.png",
+    "static/media/portfolio.png": "/static/media/portfolio.eb68e027.png",
+    "static/media/readme.png": "/static/media/readme.8aabf86b.png",
+    "static/media/resume.pdf": "/static/media/resume.09782fb6.pdf",
+    "static/media/trivia.png": "/static/media/trivia.622aea9e.png",
+    "static/media/weather.png": "/static/media/weather.935db758.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82c7dd3d.js",
+    "static/js/2.544e8cd0.chunk.js",
+    "static/css/main.6797cc79.chunk.css",
+    "static/js/main.cdee9f5d.chunk.js"
+  ]
+}
