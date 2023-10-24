@@ -8,6 +8,10 @@ import { RiMenu3Fill, RiCloseLine } from "react-icons/ri";
 function Header() {
   const [isSticky, setSticky] = useState("normal");
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const handleLinkClick = () => {
+    setShowMobileMenu(false);
+  };
+  
 
   useEffect(() => {
     window.onscroll = (e) => {
@@ -26,10 +30,10 @@ function Header() {
           <img src={Logo} alt="Collin Haws" />
         </picture>
         <menu className={`${showMobileMenu ? "show" : ""}`}>
-          <Link to="/about">About Me</Link>
-          <Link to="/portfolio">Portfolio</Link>
-          <Link to="/resume">Resume</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/about" onClick={handleLinkClick}>About Me</Link>
+          <Link to="/portfolio" onClick={handleLinkClick}>Portfolio</Link>
+          <Link to="/resume" onClick={handleLinkClick}>Resume</Link>
+          <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
         </menu>
 
         {/* Mobile menu icon  */}
