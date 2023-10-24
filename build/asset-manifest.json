@@ -1,31 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6797cc79.chunk.css",
-    "main.js": "/static/js/main.cdee9f5d.chunk.js",
-    "main.js.map": "/static/js/main.cdee9f5d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.82c7dd3d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.82c7dd3d.js.map",
-    "static/js/2.544e8cd0.chunk.js": "/static/js/2.544e8cd0.chunk.js",
-    "static/js/2.544e8cd0.chunk.js.map": "/static/js/2.544e8cd0.chunk.js.map",
+    "main.css": "/static/css/main.6f6bf221.css",
+    "main.js": "/static/js/main.dc8cc5d8.js",
+    "static/media/portfolio.png": "/static/media/portfolio.8e44a3dc88ba9f57613a.png",
+    "static/media/men.jpg": "/static/media/men.3b7bc1c405e007791b69.jpg",
+    "static/media/weather.png": "/static/media/weather.23bc4d905ef22398c09e.png",
+    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.0eaf807b1cf0eceabe0f.ttf",
+    "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.6058d3da655fb35169c2.ttf",
+    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/resume.pdf": "/static/media/resume.bcc8f4a08ea244507684.pdf",
+    "static/media/readme.png": "/static/media/readme.1555a330b5c22526ab45.png",
+    "static/media/trivia.png": "/static/media/trivia.52a3ae354df6e569197f.png",
+    "static/media/password.png": "/static/media/password.e77e3367482144d94964.png",
+    "static/media/logo.png": "/static/media/logo.01040bb0685e30e16b22.png",
     "index.html": "/index.html",
-    "precache-manifest.32c89db3445822bdb714ef1f2a114e83.js": "/precache-manifest.32c89db3445822bdb714ef1f2a114e83.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6797cc79.chunk.css.map": "/static/css/main.6797cc79.chunk.css.map",
-    "static/js/2.544e8cd0.chunk.js.LICENSE.txt": "/static/js/2.544e8cd0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Inter-SemiBold.465266b2.ttf",
-    "static/media/logo.png": "/static/media/logo.99182aa7.png",
-    "static/media/men.jpg": "/static/media/men.0029f1ff.jpg",
-    "static/media/password.png": "/static/media/password.58b90f58.png",
-    "static/media/portfolio.png": "/static/media/portfolio.eb68e027.png",
-    "static/media/readme.png": "/static/media/readme.8aabf86b.png",
-    "static/media/resume.pdf": "/static/media/resume.09782fb6.pdf",
-    "static/media/trivia.png": "/static/media/trivia.622aea9e.png",
-    "static/media/weather.png": "/static/media/weather.935db758.png"
+    "main.6f6bf221.css.map": "/static/css/main.6f6bf221.css.map",
+    "main.dc8cc5d8.js.map": "/static/js/main.dc8cc5d8.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.82c7dd3d.js",
-    "static/js/2.544e8cd0.chunk.js",
-    "static/css/main.6797cc79.chunk.css",
-    "static/js/main.cdee9f5d.chunk.js"
+    "static/css/main.6f6bf221.css",
+    "static/js/main.dc8cc5d8.js"
   ]
 }

@@ -43,23 +43,23 @@ function Contact() {
   return (
     <section className="contact__section" id="contact">
       <h1 className="heading__one">Contact Me</h1>
-      <form action="">
+      <form action="https://formspree.io/f/myyqopaj" method="POST">
         <div className="input__container">
           <label htmlFor="name">Full Name</label>
-          <input type="text" required onBlur={handleNameBlur} />
+          <input type="text" name="name" required onBlur={handleNameBlur} />
           {nameError && <div className="error">{nameError}</div>}
         </div>
         <div className="input__container">
           <label htmlFor="name">Email Address</label>
-          <input type="email" required onBlur={handleEmailBlur} />
+          <input type="email" name="email" required onBlur={handleEmailBlur} />
           {emailError && <div className="error">{emailError}</div>}
         </div>
         <div className="input__container">
           <label htmlFor="name">Message</label>
-          <textarea required onBlur={handleMessageBlur}></textarea>
+          <textarea name="message" required onBlur={handleMessageBlur}></textarea>
           {messageError && <div className="error">{messageError}</div>}
         </div>
-        <button>
+        <button type="submit">
           <span>Submit</span>
           <FaTelegramPlane />
         </button>
