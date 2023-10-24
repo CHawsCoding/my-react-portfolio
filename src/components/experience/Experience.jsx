@@ -1,6 +1,15 @@
 import "./Experience.css";
-import React from 'react';
+import React from "react";
 import Resume from "../../assets/resume.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3,
+  faBootstrap,
+  faJs,
+  faReact,
+  faNodeJs,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Experience() {
   // Skill pattern
@@ -13,21 +22,25 @@ function Experience() {
         <h2 className="heading__two">Developer Proficiencies</h2>
         <ul className="proficiencies__list">
           <li className="proficiency__item">
+            <FontAwesomeIcon icon={faHtml5} className="proficiency__icon" />
             <span className="proficiency__name">HTML</span>
           </li>
           <li className="proficiency__item">
+          <FontAwesomeIcon icon={faCss3} className="proficiency__icon" />
             <span className="proficiency__name">CSS</span>
           </li>
           <li className="proficiency__item">
-            <span className="proficiency__name">Bootstrap</span>
+          <FontAwesomeIcon icon={faBootstrap} className="proficiency__icon" />
           </li>
           <li className="proficiency__item">
             <span className="proficiency__name">Tailwind</span>
           </li>
           <li className="proficiency__item">
+          <FontAwesomeIcon icon={faJs} className="proficiency__icon" />
             <span className="proficiency__name">JavaScript</span>
           </li>
           <li className="proficiency__item">
+          <FontAwesomeIcon icon={faNodeJs} className="proficiency__icon" />
             <span className="proficiency__name">Node.js</span>
           </li>
           <li className="proficiency__item">
@@ -41,6 +54,10 @@ function Experience() {
           </li>
           <li className="proficiency__item">
             <span className="proficiency__name">GraphQL</span>
+          </li>
+          <li className="proficiency__item">
+          <FontAwesomeIcon icon={faReact} className="proficiency__icon" />
+            <span className="proficiency__name">React</span>
           </li>
         </ul>
       </div>

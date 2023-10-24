@@ -1,10 +1,24 @@
+import React, { useState, useEffect } from "react";
 import "./About.css";
-import React from 'react';
 import Men from "../../assets/men.jpg";
 import { IoArrowForwardOutline } from "react-icons/io5";
-import {Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 function About() {
+  const fullText = "→About Me←";
+  const [displayText, setDisplayText] = useState("");
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    if (index < fullText.length) {
+      const timer = setTimeout(() => {
+        setDisplayText(displayText + fullText[index]);
+        setIndex(index + 1);
+      }, 200); // Adjusting typing speed
+
+      return () => clearTimeout(timer); // Clear the timer when unmounting
+    }
+  }, [displayText, index]);
+
   return (
     <section className="about__container" id="about">
       <picture>
@@ -12,19 +26,20 @@ function About() {
       </picture>
 
       <div className="about__content">
-        <h1 className="heading__one">About Me</h1>
+        <h1 className="heading__one">{displayText}</h1>
         <p>
-          My name is Collin Haws. I am a recent graduate of a Full-stack development
-          bootcamp through the University of Utah. I have years of professional experience in technical support,
-          finance, underwriting and more. I am hoping to leverage my career experience and new technical skills 
-          into a new opportunity in tech. 
+          My name is Collin Haws. I am a recent graduate of a Full-stack
+          development bootcamp through the University of Utah. I have years of
+          professional experience in technical support, finance, underwriting
+          and more. I am hoping to leverage my career experience and new
+          technical skills into a new opportunity in tech.
         </p>
         <p>
-          Click "Resume" at the top of the page to get a copy of my downloadable resume
-          and Contact me if there is a good fit! You can also view my portfolio of projects 
-          by also clicking the link in the header
+          Click "Resume" at the top of the page to get a copy of my downloadable
+          resume and Contact me if there is a good fit! You can also view my
+          portfolio of projects by also clicking the link in the header
         </p>
-        <Link to="portfolio" spy={true} smooth={true}>
+        <Link to="/experience" className="button-link">
           <button>
             <span>More</span>
             <IoArrowForwardOutline />
