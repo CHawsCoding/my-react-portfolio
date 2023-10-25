@@ -1,6 +1,6 @@
 import "./Experience.css";
 import React from "react";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/2023_resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
