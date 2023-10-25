@@ -183,8 +183,27 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .proficiencies__list {
+    grid-template-columns: repeat(2, 1fr); /* Reduce to 2 columns on smaller screens */
+    gap: 10px; /* Reduced gap for smaller screens */
+  }
+
+  .proficiency__item {
+    margin: 10px 0; /* Adjust vertical margin */
+    padding: 5px; /* Adjust padding */
+  }
+
+  .proficiency__icon {
+    font-size: 24px; /* Reduce font size for icons */
+  }
+
+  .proficiency__name {
+    font-size: 16px; /* Reduce font size for text */
+  }
+
   .experience__container {
     margin-top: 3rem;
+    overflow: hidden;
   }
 
   .experience__container .skill__list {
@@ -206,5 +225,11 @@
 
   .experience__container .skill__list .skill__single__list .item {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .proficiencies__list {
+    grid-template-columns: repeat(1, 1fr); /* Single column layout for mobile */
   }
 }
