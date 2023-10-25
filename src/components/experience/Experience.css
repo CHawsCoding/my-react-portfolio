@@ -13,12 +13,55 @@
   display: block;
   width: max-content;
   margin: auto;
+  margin-bottom: 2rem; /* Added some margin for spacing */
 }
 
 .experience__container .resume__download__button button {
   background-color: var(--red);
   color: var(--white);
   padding: 0 1rem;
+}
+
+.proficiencies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.proficiencies__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* This ensures even spacing between each proficiency item */
+  width: 100%;
+  max-width: 1200px;
+  list-style: none;
+  padding: 0; /* Resetting any default padding */
+}
+
+
+.proficiency__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0; /* Adding vertical margin for even spacing */
+  padding: 10px; /* Adding padding for spacing around the content */
+  /* Ensure a consistent height for icons, even if missing */
+  height: 40px; 
+  justify-content: center;
+}
+
+.proficiency__icon {
+  font-size: 30px;
+  color: var(--black); /* Adjust this to make it black */
+  margin-bottom: 10px;
+}
+
+.proficiency__name {
+  font-size: 20px;
+  color: var(--black); /* Adjust this to make it black */
+  text-align: center; /* Center the text */
 }
 
 .experience__container .skill__list {
@@ -164,44 +207,4 @@
   .experience__container .skill__list .skill__single__list .item {
     font-size: 14px;
   }
-}
-
-/* Styling for developer proficiencies */
-.proficiencies {
-  margin-top: 2rem;
-}
-
-.heading__two {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.proficiencies__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  list-style-type: none;
-  padding: 0;
-}
-
-.proficiency__item {
-  margin: 0.5rem;
-  display: flex;
-  align-items: center;
-}
-
-.proficiency__icon {
-  background-color: #f0f0f0;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  margin-right: 0.5rem;
-}
-
-.proficiency__name {
-  font-weight: 500;
 }
