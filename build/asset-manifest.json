@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.633dea78.css",
-    "main.js": "/static/js/main.aa0e8223.js",
-    "static/media/portfolio.png": "/static/media/portfolio.8e44a3dc88ba9f57613a.png",
+    "main.js": "/static/js/main.e83ed199.js",
+    "static/media/portfolio1.png": "/static/media/portfolio1.782340f58dfe4e363f0a.png",
     "static/media/men.jpg": "/static/media/men.3b7bc1c405e007791b69.jpg",
-    "static/media/weather.png": "/static/media/weather.23bc4d905ef22398c09e.png",
     "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.0eaf807b1cf0eceabe0f.ttf",
     "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.6058d3da655fb35169c2.ttf",
     "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
     "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/diy.png": "/static/media/diy.86940f610ebd727b8d46.png",
     "static/media/readme.png": "/static/media/readme.1555a330b5c22526ab45.png",
     "static/media/2023_resume.pdf": "/static/media/2023_resume.8fd26814f4c467cd70f3.pdf",
     "static/media/trivia.png": "/static/media/trivia.52a3ae354df6e569197f.png",
@@ -16,10 +16,10 @@
     "static/media/logo.png": "/static/media/logo.01040bb0685e30e16b22.png",
     "index.html": "/index.html",
     "main.633dea78.css.map": "/static/css/main.633dea78.css.map",
-    "main.aa0e8223.js.map": "/static/js/main.aa0e8223.js.map"
+    "main.e83ed199.js.map": "/static/js/main.e83ed199.js.map"
   },
   "entrypoints": [
     "static/css/main.633dea78.css",
-    "static/js/main.aa0e8223.js"
+    "static/js/main.e83ed199.js"
   ]
 }
